@@ -1,0 +1,25 @@
+.ToDoListItem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(70, 70, 70);
+  border: 1px solid rgb(120, 180, 235);
+  margin: 8px;
+  border-radius: 4px;
+  width: 300px;
+  padding: 4px 2px;
+}
+
+.ToDoListItem-description {
+  word-wrap: break-word;
+  text-align: left;
+  padding: 8px;
+}
+
+.ToDoListItem-deadline {
+  margin-left: auto;
+  font-size: 70%;
+  word-wrap: break-word;
+  text-align: right;
+  white-space: nowrap;
+}

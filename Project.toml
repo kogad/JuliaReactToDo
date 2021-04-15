@@ -9,6 +9,7 @@ MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
 [compat]
+MySQL = "1.2"
 julia = "1.6"
 
 [extras]
